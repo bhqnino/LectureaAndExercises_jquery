@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #333;
+}
+
+header h1 {
+  padding: 20px 25px;
+  color: #fff;
+  background: burlywood;
+  font-weight: bold;
+}
+
+button {
+  position: absolute;
+  top: 17px;
+  right: 25px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer; /*變手指*/
+}
+
+button:focus {
+  outline: none;
+}
+/* 
+按鈕有四種狀態
+1. 普通狀態
+2. hover 滑鼠懸停狀態
+3. active 點選狀態
+4. focus 取得焦點狀態 */
+
+ul {
+  display: none;
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  color: rgba(65, 54, 7, 0.363);
+  font-weight: bold;
+  display: block;
+  padding: 17px 25px;
+  background: rgb(238, 209, 157);
+  border-bottom: 1px solid #fff;
+}
+
+li:last-child a {
+  border-bottom: none;
+}
+
+main {
+  display: block;
+  padding: 40px 20px;
+  color: #333;
+}
+
+p {
+  margin-top: 50px;
+  line-height: 2em;
+}
